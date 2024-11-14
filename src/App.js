@@ -1,14 +1,13 @@
-import logo from './logo.svg';
+// src/App.js
+import React from 'react';
 import './App.css';
+import Login from './Login';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <code>Welcome to Ecommerce Project's</code>
-        </p>
+        <Login />
       </header>
     </div>
   );
