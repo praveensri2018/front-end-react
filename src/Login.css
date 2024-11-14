@@ -1,0 +1,97 @@
+/* src/Login.css */
+.login-container {
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    animation: fadeIn 0.6s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .login-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .login-form .form-group {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .login-form label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    transition: color 0.3s ease;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .login-form input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.2);
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .submit-button:active {
+    background-color: #00408d;
+    transform: translateY(0);
+  }
+  
+  .toggle-text {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .toggle-link {
+    color: #007bff;
+    cursor: pointer;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }
+  
+  .toggle-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
